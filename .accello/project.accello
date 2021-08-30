@@ -1,0 +1,18 @@
+{
+	"uuid": "054f7d91-23da-47e9-9234-287166f7d6d6",
+	"errors": [],
+	"errorDetails": [],
+	"environments": [],
+	"configurations": {
+		"uuid": "41a2278b-b76a-44f7-b560-9611487b121f",
+		"errors": [],
+		"errorDetails": [],
+		"policySets": [],
+		"registries": [],
+		"repositories": [],
+		"accounts": []
+	},
+	"name": "terraform-google-infrastructure",
+	"type": "blueprint",
+	"branches": []
+}
