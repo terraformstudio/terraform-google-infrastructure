@@ -1,5 +1,5 @@
 {
-	"uuid": "b3bf4595-9f2d-4d5b-86dd-9c28bd1fb297",
+	"uuid": "cf78db01-c8a6-4088-b4b1-0384706dbc36",
 	"errors": [],
 	"errorDetails": [],
 	"files": [],
@@ -11,7 +11,7 @@
 	"branches": [],
 	"isImported": false,
 	"repository": {
-		"uuid": "d0feb37b-26f8-4fa3-b73d-758e934dd007",
+		"uuid": "55699f10-48ec-4086-8ae4-438ee73bbcb8",
 		"errors": [],
 		"errorDetails": [],
 		"isDefault": true,
@@ -26,12 +26,12 @@
 		"org": "",
 		"repoIdentifier": "terraformstudio/terraform-google-infrastructure"
 	},
-	"name": "terraform-google-infrastructure",
+	"name": "terraform-google-infrstructure-2.0",
 	"defaultBranch": "master",
 	"currentBranch": "master",
 	"projectType": "blueprint",
 	"registry": {
-		"uuid": "835ef4ef-6dcb-4500-a72d-ad4d5d1a2077",
+		"uuid": "6fff4346-3a04-4c7f-910d-daf79fd564f7",
 		"errors": [],
 		"errorDetails": [],
 		"isDefault": true,
