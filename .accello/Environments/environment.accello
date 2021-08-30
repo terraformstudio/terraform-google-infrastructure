@@ -1,5 +1,5 @@
 {
-	"uuid": "9625d1ea-2f81-48ef-b463-cd1b4746ab60",
+	"uuid": "ab831b26-497d-4406-82e6-f2a27e900bdf",
 	"errors": [],
 	"errorDetails": [],
 	"policySets": [],
@@ -7,7 +7,7 @@
 	"providers": [],
 	"workspaces": [
 		{
-			"uuid": "8629a51a-720b-4739-b45f-36092a2b4b74",
+			"uuid": "5286dfc8-2517-4daf-b083-25f770073dc3",
 			"errors": [],
 			"errorDetails": [],
 			"name": "local",
@@ -17,5 +17,5 @@
 	],
 	"inputVariables": [],
 	"name": "dev",
-	"executionContext": "local"
+	"executionContext": "cli"
 }
