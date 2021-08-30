@@ -1,0 +1,1004 @@
+[
+	{
+		"uuid": "dbec3fe4-270f-4c8a-9186-04c763fe53d8",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "project_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "coe-foundation-215839"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "09514d62-967e-4c02-a65e-7539e8344798",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "credentials_file_path",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "coe-foundation.json"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "328ea621-03da-4fb4-9095-3a7ac5d6048c",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "region",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "us-central1"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "dfe48455-3841-46a3-a1bc-c928ff5c11c3",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "zone",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "us-central1-a"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "8eed0cf0-8e3e-4597-a574-dc0706f8aef8",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "apache-server-instance1"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "d51fa9d6-73e0-46a1-9960-c0680b90f61c",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_zone",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "us-central1-a"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "5c6128aa-9a95-4e0d-918e-098441174687",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_tags",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "apache-server1"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "7000e0cb-2a69-430c-b5b4-6a22c85818d7",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_machine_type",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "n1-standard-1"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "77a4daf5-60c2-4ebc-992a-a85873e8ce90",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_boot_image",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "ubuntu-os-cloud/ubuntu-1404-trusty-v20160314"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "39e5df12-daee-4e8c-af32-87788c82b2e7",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_network",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "default"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "4454f83b-418f-4b88-bcc1-67d6dd221f90",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_metadata_startup_script",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "sudo apt-get update && sudo apt-get install apache2 -y && echo '<!doctype html><html><body><h1>Welcome Apache1</h1></body></html>' | sudo tee /var/www/html/index.html"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "aef6ec2b-4058-4dfc-a48c-c84c7f73af80",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_firewall_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "allow-tcp-apache1"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "1bdd174c-510f-44b8-beda-73f82e35712f",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_firewall_protocol",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "tcp"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "e3b780c1-1f6d-4cb2-a508-b0503391ca6c",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_firewall_ports",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "80"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "19841848-04f8-40c6-9f5b-9cda2c2c7dcb",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_firewall_source_range",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "0.0.0.0/0"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "c1724ae2-dda8-4fba-9d6a-93ca767e40e3",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance1_firewall_target_tags",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "apache-server1"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "9ee14836-cf2a-4871-bd78-38460238471b",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "apache-server-instance2"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "86d214f6-0313-437a-a10c-1489447b32ab",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_zone",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "us-central1-a"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "03ad77e0-c706-426f-b919-70e5d3a2ecc5",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_tags",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "apache-server2"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "a7e8c137-b69e-4342-adfd-60053770abe1",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_machine_type",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "n1-standard-1"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "ff396159-b936-4c09-a2f4-25736a432094",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_boot_image",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "ubuntu-os-cloud/ubuntu-1404-trusty-v20160314"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "2cf8e913-3262-4263-81b8-4b4ee928a8c4",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_network",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "default"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "e094550f-8089-437d-8ff9-60cbe704f073",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_metadata_startup_script",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "sudo apt-get update && sudo apt-get install apache2 -y && echo '<!doctype html><html><body><h1>Welcome Apache2</h1></body></html>' | sudo tee /var/www/html/index.html"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "c1e46709-2951-42ac-91c9-913a35cf1a9e",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_firewall_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "allow-tcp-apache2"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "fc2e94a0-be0d-4114-92e5-d4ba5ee875af",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_firewall_protocol",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "tcp"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "3686cb3c-3f8e-4a14-a567-9c9db7840e5b",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_firewall_ports",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "80"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "de12a920-6071-480f-b776-2f6acf7675a4",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_firewall_source_range",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "0.0.0.0/0"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "4a4d0ef0-e132-40fa-83cb-b3b4fbd569a1",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "apache_instance2_firewall_target_tags",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "apache-server2"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "61d39660-cfd6-45f3-8f86-d513d528e7f6",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "node-instance"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "dea59d02-d944-4db8-a5ae-0d55d8fa03ca",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_zone",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "us-central1-a"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "e9803e95-7c6a-4059-a30a-af48c4531026",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_tags",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "node-server1"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "c99d7302-1835-4589-82b5-00bb2c0ab731",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_machine_type",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "n1-standard-1"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "63dafc6e-5ce9-4026-9e73-0de78f0fb557",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_boot_image",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "ubuntu-os-cloud/ubuntu-1404-trusty-v20160314"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "8d61af87-f4f0-46c5-80c2-975a08c4aaff",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_network",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "default"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "9cd83222-335e-485f-931e-4d2ee8418cb9",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_metadata_startup_script",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "sudo apt-get update && curl -sL  https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt-get install nodejs -y && sudo apt-get install npm && sudo apt-get update && sudo apt-get upgrade && echo '<!doctype html><html><body><h1>Welcome Node.js 1</h1></body></html>' | sudo tee /var/www/html/index.html"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "4a49d166-ef75-445c-a9b4-208449e94021",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_firewall_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "node-allow-tcp1"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "28b96adc-a371-44bf-9cc8-b30ba928dee3",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_firewall_protocol",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "tcp"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "a5fb78ba-fcbc-4d0e-b4ff-aa403e98f641",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_firewall_ports",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "80"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "7e4faa8c-5901-4f71-a835-08c7d0a17bf3",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_firewall_source_range",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "0.0.0.0/0"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "2a0ff11a-c4b4-4ed3-984a-77b25eaba504",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "node_instance_firewall_target_tags",
+		"value": {
+			"varType": "list",
+			"type": "literal",
+			"expression": [
+				{
+					"varType": "string",
+					"type": "literal",
+					"expression": "node-server1"
+				}
+			],
+			"complexType": "string"
+		},
+		"varType": "list"
+	},
+	{
+		"uuid": "9d70f992-c998-49ba-a27e-2448dec9762e",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "health_check_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "tf-www-basic-check"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "5eaff873-7b08-4b63-b7f3-c9b897aad762",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "request_path",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "/"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "8d28655c-1772-4c0e-9284-bf0723801cd1",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "check_interval_second",
+		"value": {
+			"varType": "number",
+			"type": "literal",
+			"expression": 1
+		},
+		"varType": "number"
+	},
+	{
+		"uuid": "e6e84cf1-fe2e-490d-8e06-ee734fdaef1b",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "healthy_threshold",
+		"value": {
+			"varType": "number",
+			"type": "literal",
+			"expression": 1
+		},
+		"varType": "number"
+	},
+	{
+		"uuid": "03150657-9d60-4088-af1e-800181d76f7b",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "unhealthy_threshold",
+		"value": {
+			"varType": "number",
+			"type": "literal",
+			"expression": 10
+		},
+		"varType": "number"
+	},
+	{
+		"uuid": "5851abf7-49b7-4096-b654-a989fec8db18",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "timeout_second",
+		"value": {
+			"varType": "number",
+			"type": "literal",
+			"expression": 1
+		},
+		"varType": "number"
+	},
+	{
+		"uuid": "38549394-198d-454f-9288-22f697e2e1bc",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "target_pool_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "tf-www-target-pool"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "3f870c9f-e094-4782-a60b-a537dda96a18",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "forward_rule_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "tf-www-forwarding-rule"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "0e4b40da-9db9-47b8-ab83-b409710c4357",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "port_range_forward_rule",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "80"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "6aa442a4-108b-49a2-bb3c-dec42dc45041",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "byte_length",
+		"value": {
+			"varType": "number",
+			"type": "literal",
+			"expression": 4
+		},
+		"varType": "number"
+	},
+	{
+		"uuid": "61c6c164-9d5e-43bc-bd91-8396e9b422b1",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "db_instance_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "database-instance-mysql"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "05fa80ca-499c-4397-be87-f3e9493a003b",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "db_instance_version",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "MYSQL_5_6"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "b3318031-35aa-42c9-91b5-a332f69ca698",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "db_instance_tier",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "db-f1-micro"
+		},
+		"varType": "string"
+	},
+	{
+		"uuid": "b26a082d-9934-41bc-b19b-5b02cc8b31ba",
+		"errors": [],
+		"errorDetails": [],
+		"blocks": [],
+		"metaArgs": [],
+		"type": "variable",
+		"sensitive": false,
+		"scope": "input",
+		"name": "db_name",
+		"value": {
+			"varType": "string",
+			"type": "literal",
+			"expression": "database-mysql"
+		},
+		"varType": "any"
+	}
+]

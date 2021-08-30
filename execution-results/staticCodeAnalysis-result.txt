@@ -1,0 +1,22 @@
+
+Warning: A tfvars file was found but not automatically used. 
+Did you mean to specify the --tfvars-file flag?
+
+  times
+  ------------------------------------------
+  disk i/o             12.6896ms
+  parsing HCL          0s
+  evaluating values    2.9262ms
+  running checks       1.943ms
+
+  counts
+  ------------------------------------------
+  files loaded         3
+  blocks               83
+  evaluated blocks     83
+  modules              0
+  module blocks        0
+  ignored checks       0
+
+No problems detected!
+

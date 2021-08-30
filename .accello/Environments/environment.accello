@@ -1,0 +1,21 @@
+{
+	"uuid": "9625d1ea-2f81-48ef-b463-cd1b4746ab60",
+	"errors": [],
+	"errorDetails": [],
+	"policySets": [],
+	"bluePrints": [],
+	"providers": [],
+	"workspaces": [
+		{
+			"uuid": "8629a51a-720b-4739-b45f-36092a2b4b74",
+			"errors": [],
+			"errorDetails": [],
+			"name": "local",
+			"organization": "local",
+			"type": "local"
+		}
+	],
+	"inputVariables": [],
+	"name": "dev",
+	"executionContext": "local"
+}
