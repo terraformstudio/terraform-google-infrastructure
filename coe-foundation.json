@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "coe-foundation-215839",
+  "private_key_id": "30e718ec90539b570054e20217054e45a1ca30cd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC+HQBLTLY3u8oM\ndROANTEqGK0D1HCJ27HtBwfFSXZO8gmcfLe4q/pFc2oJwK0e65vFw/FfLmNjguDO\nC7ErnD4uXQRqgAHnkA85mkFQXT8M2ZNNTJg87NFStvH9IxzLYX2DPRcN3NogDePJ\nsEwRSAY+o0f+xzdI1L3jRL3TBLM6xoZnhfWIG/Hd8xNh7kHh8kGPR8jOFSgKyEw0\n9/AmldYR5ByF+6e0TYwiiG9+Mb5LGb3SOyEusAPTvP6HZst4ikaoG2g+XVDAzXBx\nykGl5Nmbq22CucWqZ8NM/kDwnKJeZnCfgx3bNQ2mYfl092GqnjkdD89HOpGnFHIX\ndhJ3f00RAgMBAAECggEAAbxdTTK0O7ZJ2hsEDHC/5ArhYoZxKBsSyO+eXytkaoRc\neNqtKUEduf5bpp7lHcIINDItrSEs7GLMp2j1K0kkCrOT9553VfxLXUrmo4OUcKs4\nZHVpcu31G9CajUWBrOw1E4qOYDSm47HIxYXH7gT2tKH0RXPfcflqSe3N32Q8uDHF\nj0fAHqPd+dMVRhYzPidFKivHhRt9WkDCT6wMTVUzPI8eHpj1W/7okNuxKxAtGg0c\nDPr4dk64Ntnx+aRmNdqWG76ModZOuqXg83rWyyfX4pxARs5opqBY6qUg9fYyGbwT\npoLNwL6FgrW5UXJ6rI/AqQt4ZWhNTyP4zbjL93inWQKBgQDeqLF9spZsPDvfSvBm\nIlqWO0+tzlpyrJxrgHLwChfTAc381rWBCa7Fhm+9MdNJ9RcCpbA+kdc4JeaqgXUa\nFXweqsVujHS4QDOuOeE19L0HPlo4RErd+QO/ro34vm7T9VpqkVmyFHedrgaJNjwL\nmtWhi67X0tVh4ZzcemBXtgjM6QKBgQDalLeGll6X/+s/yEhtKis9ZuyiBrsZls9+\nVbWfhvdgsv1k2MsQEJhwZVTZHwhWZdtT3oI/EH7xZ3+pLTKEn9cJT+RjGHO3svwC\nWIPNLaXMgHKSwK4ic02kUvYlZYEm8k2VZIx05oyOaD16i+8ayljH/7OrTPNYi9uc\nzcK0RvJF6QKBgQDbyqAymXi9bRQZDouR9nV/eRrlUh6ctmFOCSTsaLot08k3vea7\ncwhv+Y4Rr76HcgV92nrIuQQ/a8JwK4yh6/Vy/FYaE1Igk1ews3fp4CY8oUND6b4R\nsf8OV0vT8H/MgZT4P3TQQj31i9Tt23iYaAZcClvUtk1m6uQCDFdQHeRACQKBgQCp\nR5GWju/1YcKMJA1LVeQk6ogKt5HBMJXDbpd5U6pT3mr15hvldiTIrwF2IV1wo/On\nUWSneJwHUzOADrvYEH4V/SSQRkigFOKs4mY4ychkx3l0A/sYPRn9UC7HKYRLaE4D\ni9pnUoG6bCpotOTZZ6o4QeSgnri7c50CJCxNN8C7uQKBgQCfaDpOu+j+fsJg+QZx\n+KYIb6IBsEkzPootij1JYVOLd7AV0xEIHTmNU9GEqzIo1ovZPKBJM1Q5vrncsBwc\n/m5ln0p8jj9qNYXecL/C6n4uCC5RXGkm2bgy0j8xMjOzHockOteq7MIPzUPMF9h7\nygAYNoUvNcZ+CM+ScJJI6tzBMA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "accelerator-sa@coe-foundation-215839.iam.gserviceaccount.com",
+  "client_id": "102906334103713116431",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/accelerator-sa%40coe-foundation-215839.iam.gserviceaccount.com"
+}

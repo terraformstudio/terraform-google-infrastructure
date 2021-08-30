@@ -1,10 +1,10 @@
 {
-	"uuid": "3cfd6666-665a-45c8-a2b7-e4b30751cceb",
+	"uuid": "d40af3e6-7b31-46ac-af81-fd63aae8d5a8",
 	"errors": [],
 	"errorDetails": [],
 	"environments": [],
 	"configurations": {
-		"uuid": "8505a150-4657-497d-a460-b1a517806f80",
+		"uuid": "799b3268-518a-4b90-ab83-94ddeae871e5",
 		"errors": [],
 		"errorDetails": [],
 		"policySets": [],
@@ -12,7 +12,7 @@
 		"repositories": [],
 		"accounts": []
 	},
-	"name": "terraform-google-infrstructure-2.0",
+	"name": "terraform-google-blueprint",
 	"type": "blueprint",
 	"branches": []
 }
