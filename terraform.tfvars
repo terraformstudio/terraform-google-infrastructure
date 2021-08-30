@@ -1,8 +1,22 @@
-credentials_file_path = "coe-foundation.json"
-project_name               = "coe-foundation-215839" 
-region                = "us-central1"
-zone                  = "us-central1-a"
+# This file is used to set the actual values of variables
+# The values specified in this file will automatically be loaded by Terraform and applied to the respective variable defined in a variable block
+# E.g.:
+#
+#     1) For string variable "image_id" declared in variables.tf
+#         
+#         image_id = "ami-0b69ea66ff7391e80"
+#
+#     2) For map variable "tags" declared in variables.tf
+#         
+#         tags = {
+#             "Owner" = "jdoe"
+#         }
+#
 
+project_name = "coe-foundation-215839"
+credentials_file_path = "coe-foundation.json"
+region = "us-central1"
+zone = "us-central1-a"
 apache_instance1_name = "apache-server-instance1"
 apache_instance1_zone = "us-central1-a"
 apache_instance1_tags = ["apache-server1"]
@@ -14,8 +28,7 @@ apache_instance1_firewall_name = "allow-tcp-apache1"
 apache_instance1_firewall_protocol = "tcp"
 apache_instance1_firewall_ports = ["80"]
 apache_instance1_firewall_source_range = ["0.0.0.0/0"]
-apache_instance1_firewall_target_tags =  ["apache-server1"]
-
+apache_instance1_firewall_target_tags = ["apache-server1"]
 apache_instance2_name = "apache-server-instance2"
 apache_instance2_zone = "us-central1-a"
 apache_instance2_tags = ["apache-server2"]
@@ -27,8 +40,7 @@ apache_instance2_firewall_name = "allow-tcp-apache2"
 apache_instance2_firewall_protocol = "tcp"
 apache_instance2_firewall_ports = ["80"]
 apache_instance2_firewall_source_range = ["0.0.0.0/0"]
-apache_instance2_firewall_target_tags =  ["apache-server2"]
-
+apache_instance2_firewall_target_tags = ["apache-server2"]
 node_instance_name = "node-instance"
 node_instance_zone = "us-central1-a"
 node_instance_tags = ["node-server1"]
@@ -40,29 +52,21 @@ node_instance_firewall_name = "node-allow-tcp1"
 node_instance_firewall_protocol = "tcp"
 node_instance_firewall_ports = ["80"]
 node_instance_firewall_source_range = ["0.0.0.0/0"]
-node_instance_firewall_target_tags =  ["node-server1"]
-
+node_instance_firewall_target_tags = ["node-server1"]
 health_check_name = "tf-www-basic-check"
 request_path = "/"
 check_interval_second = 1
 healthy_threshold = 1
 unhealthy_threshold = 10
 timeout_second = 1
-
 target_pool_name = "tf-www-target-pool"
-
 forward_rule_name = "tf-www-forwarding-rule"
 port_range_forward_rule = "80"
-
 byte_length = 4
-
 db_instance_name = "database-instance-mysql"
 db_instance_version = "MYSQL_5_6"
 db_instance_tier = "db-f1-micro"
-
-/*
-db_instance_user_name = "vaibhav_j"
-db_instance_password = "vaibhav_0011"
-*/
-
 db_name = "database-mysql"
+
+
+
